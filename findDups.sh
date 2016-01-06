@@ -8,8 +8,6 @@ dupsFile=~/Sandbox/findDupsDir/dups.txt
 #Ensure we are in the search directory
 cd $searchDir
 
-echo Changing directories
-
 #Get list of all current directory non-hidden contents 
 #Pipe to awk and print file size and name
 #Include space delimiter
